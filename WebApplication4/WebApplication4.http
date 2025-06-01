@@ -1,0 +1,14 @@
+@WebApplication4_HostAddress = http://localhost:5008
+
+POST {{WebApplication4_HostAddress}}/inbox/message/
+Content-Type: application/json
+
+{
+  "from": "",
+  "to": "z.xcy@email.com",
+  "copy": "p.rivet@email.com",
+  "blindCopy": "",
+  "title": "",
+  "body": ""
+}
+###
